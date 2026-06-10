@@ -15,7 +15,7 @@ def test_invalid_note(setup_and_teardown):
     title = inv["title"]
     description = inv["dis"]
 
-    pp.small_scroll_page()
+    # pp.small_scroll_page()
 
     pp.click_on_add_note()
 
