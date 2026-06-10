@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
 
 
@@ -42,7 +43,21 @@ class NotesPage(BasePage):
         self.enter_text(self.description_box, description)
 
     def click_create(self):
-        self.click(self.create_button)
+        button = self.wait.until(
+            EC.element_to_be_clickable(
+                self.create_button
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView(true);",
+            button
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            button
+        )
 
     def click_view(self):
         self.click(self.view_button)
