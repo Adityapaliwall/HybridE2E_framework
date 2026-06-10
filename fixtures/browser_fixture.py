@@ -17,6 +17,7 @@ def setup_and_teardown():
     o.add_argument("--no-sandbox")
     o.add_argument("--disable-notifications")
     o.add_argument("--start-maximized")
+    o.add_argument("--disable-popup-blocking")
 
     driver = Chrome(options=o)
 
