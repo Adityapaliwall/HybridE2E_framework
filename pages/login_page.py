@@ -15,23 +15,23 @@ class LoginPage(BasePage):
         super().__init__(driver)
 
     # Actions
-    def click_login(self):
-        self.click(self.LOGIN_BUTTON)
-
     # def click_login(self):
-    #     element = self.wait.until(
-    #         EC.element_to_be_clickable(self.LOGIN_BUTTON)
-    #     )
-    #
-    #     self.driver.execute_script(
-    #         "arguments[0].scrollIntoView({block:'center'});",
-    #         element
-    #     )
-    #
-    #     self.driver.execute_script(
-    #         "arguments[0].click();",
-    #         element
-    #     )
+    #     self.click(self.LOGIN_BUTTON)
+
+    def click_login(self):
+        element = self.wait.until(
+            EC.element_to_be_clickable(self.LOGIN_BUTTON)
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});",
+            element
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            element
+        )
 
     def enter_email(self, email):
         self.enter_text(self.EMAIL_FIELD, email)

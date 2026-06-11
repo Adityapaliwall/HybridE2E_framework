@@ -4,7 +4,7 @@ from selenium.webdriver import Chrome, ChromeOptions
 from config.env import ConfigReader
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def setup_and_teardown():
     ## Read env and config file
     config = ConfigReader.read_config()

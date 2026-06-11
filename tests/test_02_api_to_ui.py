@@ -19,7 +19,7 @@ def test_api_to_ui(setup_and_teardown, headers):
     ## logning in application throgh api
     print("\n===== API LOGIN =====")
     logger.info("\n===== API LOGIN =====")
-    login_payload = read_json("test_data/login.json")
+    login_payload = read_json("test_data/second_login.json")
     login_response = AuthAPI().login_user(login_payload)
     assert login_response.status_code == 200
     token = login_response.json()["data"]["token"]
@@ -70,9 +70,9 @@ def test_api_to_ui(setup_and_teardown, headers):
 
     ## now logging through ui
     config = ConfigReader.read_config()
-    qa = config["qa"]
-    email = qa["user_email"]
-    password = qa["user_password"]
+    sec_qa = config["second_qa"]
+    email = sec_qa["user_email"]
+    password = sec_qa["user_password"]
 
     print("\n===== LOGIN THROUGH UI =====")
     logger.info("\n===== LOGIN THROUGH UI =====")
@@ -87,12 +87,16 @@ def test_api_to_ui(setup_and_teardown, headers):
 
     print("\n===== VERIFY NOTE NOT PRESENT IN UI =====")
     logger.info("\n===== VERIFY NOTE NOT PRESENT IN UI =====")
+
     all_titles = pp.get_all_note_titles()
+
     print("Available Notes In UI:")
     logger.info("Available Notes In UI:")
+
     for note_title in all_titles:
         print(note_title)
     assert title not in all_titles, \
         "Deleted note still visible in UI"
+
     print(f"\nDeleted Note '{title}' Not Found In UI")
     logger.info(f"\nDeleted Note '{title}' Not Found In UI")
