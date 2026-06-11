@@ -20,6 +20,5 @@ def note_id(headers):
     payload = read_json("test_data/create_note.json")
 
     response = NotesAPI().create_note(headers, payload)
-
-    note_id = response.json()["data"]["id"]
-    return note_id
+    assert response.status_code == 200
+    yield response.json()["data"]["id"]

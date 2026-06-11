@@ -903,3 +903,238 @@ Deleted Note 'Delete Hybrid Note' Not Found In UI
 2026-06-11 12:32:49,208 - test_02_api_to_ui - [INFO] - Available Notes In UI:
 2026-06-11 12:32:49,211 - test_02_api_to_ui - [INFO] - 
 Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-11 12:40:12,938 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 12:40:13,629 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 12:40:14,293 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 12:40:14,293 - test_02_api_to_ui - [INFO] - Note ID     : 6a2a5f56c760c30296c6f2e0
+2026-06-11 12:40:14,293 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 12:40:14,293 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 12:40:14,293 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 12:40:14,936 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 12:40:14,936 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2a5f56c760c30296c6f2e0
+2026-06-11 12:40:14,936 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 12:40:14,937 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 12:40:15,523 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 12:40:15,527 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 12:40:43,054 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-11 12:40:43,054 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-11 12:40:43,054 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-11 12:40:43,758 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-11 12:40:43,759 - test_01_ui_to_api - [INFO] - API Response Time : 0.63 sec
+2026-06-11 12:40:43,759 - test_01_ui_to_api - [INFO] - Total Notes Returned : 32
+2026-06-11 12:40:43,759 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-11 13:15:40,629 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-11 13:15:40,630 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-11 13:15:40,630 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-11 13:15:41,331 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-11 13:15:41,331 - test_01_ui_to_api - [INFO] - API Response Time : 0.59 sec
+2026-06-11 13:15:41,332 - test_01_ui_to_api - [INFO] - Total Notes Returned : 33
+2026-06-11 13:15:41,332 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-11 13:15:56,634 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 13:15:57,107 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 13:15:57,738 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 13:15:57,740 - test_02_api_to_ui - [INFO] - Note ID     : 6a2a67b5c760c30296c6f8ce
+2026-06-11 13:15:57,740 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 13:15:57,740 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 13:15:57,740 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 13:15:58,386 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 13:15:58,386 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2a67b5c760c30296c6f8ce
+2026-06-11 13:15:58,386 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 13:15:58,386 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 13:15:58,789 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 13:15:58,791 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 13:16:06,190 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-11 13:16:30,135 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-11 13:16:30,610 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-11 13:16:30,612 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-11 16:05:18,067 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 16:05:18,564 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 16:05:18,978 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 16:05:18,978 - test_02_api_to_ui - [INFO] - Note ID     : 6a2a8f66c760c30296c721cf
+2026-06-11 16:05:18,978 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 16:05:18,978 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 16:05:18,978 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 16:05:19,469 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 16:05:19,470 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2a8f66c760c30296c721cf
+2026-06-11 16:05:19,471 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 16:05:19,471 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 16:05:19,879 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 16:05:19,882 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 16:05:23,389 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-11 16:05:27,559 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-11 16:05:27,833 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-11 16:05:27,836 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-11 16:08:01,416 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-11 16:08:01,416 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-11 16:08:01,416 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-11 16:08:01,865 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-11 16:08:01,865 - test_01_ui_to_api - [INFO] - API Response Time : 0.40 sec
+2026-06-11 16:08:01,865 - test_01_ui_to_api - [INFO] - Total Notes Returned : 34
+2026-06-11 16:08:01,866 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-11 16:08:15,731 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 16:08:16,444 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 16:08:16,846 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 16:08:16,847 - test_02_api_to_ui - [INFO] - Note ID     : 6a2a9018c760c30296c7225f
+2026-06-11 16:08:16,847 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 16:08:16,847 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 16:08:16,847 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 16:08:17,504 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 16:08:17,504 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2a9018c760c30296c7225f
+2026-06-11 16:08:17,504 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 16:08:17,505 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 16:08:18,109 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 16:08:18,112 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 16:08:21,848 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-11 16:08:45,395 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-11 16:08:45,641 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-11 16:08:45,644 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-11 17:02:17,942 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-11 17:02:17,942 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-11 17:02:17,942 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-11 17:02:18,416 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-11 17:02:18,416 - test_01_ui_to_api - [INFO] - API Response Time : 0.41 sec
+2026-06-11 17:02:18,416 - test_01_ui_to_api - [INFO] - Total Notes Returned : 48
+2026-06-11 17:02:18,416 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-11 17:02:33,439 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 17:02:34,155 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 17:02:34,622 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 17:02:34,623 - test_02_api_to_ui - [INFO] - Note ID     : 6a2a9cd2c760c30296c7290f
+2026-06-11 17:02:34,623 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 17:02:34,623 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 17:02:34,623 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 17:02:35,025 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 17:02:35,025 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2a9cd2c760c30296c7290f
+2026-06-11 17:02:35,026 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 17:02:35,026 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 17:02:35,648 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 17:02:35,651 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 17:02:40,097 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-11 17:02:44,825 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-11 17:02:45,105 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-11 17:02:45,109 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-11 23:26:05,418 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-11 23:26:05,422 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-11 23:26:05,423 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-11 23:26:06,108 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-11 23:26:06,108 - test_01_ui_to_api - [INFO] - API Response Time : 0.61 sec
+2026-06-11 23:26:06,108 - test_01_ui_to_api - [INFO] - Total Notes Returned : 30
+2026-06-11 23:26:06,108 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-11 23:26:17,708 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 23:26:18,144 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 23:26:18,582 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 23:26:18,582 - test_02_api_to_ui - [INFO] - Note ID     : 6a2af6c2c760c30296c7489d
+2026-06-11 23:26:18,582 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 23:26:18,582 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 23:26:18,582 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 23:26:18,995 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 23:26:18,996 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2af6c2c760c30296c7489d
+2026-06-11 23:26:18,996 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 23:26:18,996 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 23:26:19,432 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 23:26:19,435 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 23:26:25,252 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-11 23:26:29,231 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-11 23:26:29,527 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-11 23:26:29,530 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-11 23:41:54,951 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-11 23:41:54,951 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-11 23:41:54,953 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-11 23:41:55,517 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-11 23:41:55,517 - test_01_ui_to_api - [INFO] - API Response Time : 0.46 sec
+2026-06-11 23:41:55,517 - test_01_ui_to_api - [INFO] - Total Notes Returned : 36
+2026-06-11 23:41:55,517 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-11 23:42:07,853 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 23:42:08,383 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 23:42:09,076 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 23:42:09,076 - test_02_api_to_ui - [INFO] - Note ID     : 6a2afa78c760c30296c74a20
+2026-06-11 23:42:09,076 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 23:42:09,076 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 23:42:09,076 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 23:42:09,568 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 23:42:09,569 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2afa78c760c30296c74a20
+2026-06-11 23:42:09,570 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 23:42:09,571 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 23:42:09,999 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 23:42:10,005 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 23:42:12,902 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-11 23:42:14,499 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-11 23:42:14,835 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-11 23:42:14,838 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-11 23:57:22,376 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-11 23:57:22,379 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-11 23:57:22,379 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-11 23:57:22,853 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-11 23:57:22,853 - test_01_ui_to_api - [INFO] - API Response Time : 0.40 sec
+2026-06-11 23:57:22,854 - test_01_ui_to_api - [INFO] - Total Notes Returned : 39
+2026-06-11 23:57:22,854 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-11 23:57:34,695 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-11 23:57:35,443 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-11 23:57:36,046 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-11 23:57:36,046 - test_02_api_to_ui - [INFO] - Note ID     : 6a2afe17c760c30296c74d8b
+2026-06-11 23:57:36,047 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-11 23:57:36,047 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-11 23:57:36,047 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-11 23:57:36,742 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-11 23:57:36,742 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2afe17c760c30296c74d8b
+2026-06-11 23:57:36,742 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-11 23:57:36,742 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-11 23:57:37,216 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-11 23:57:37,218 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-11 23:57:40,280 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-11 23:57:42,032 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-11 23:57:42,373 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-11 23:57:42,375 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI

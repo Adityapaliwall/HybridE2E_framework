@@ -18,6 +18,16 @@ def setup_and_teardown():
     o.add_argument("--disable-notifications")
     o.add_argument("--start-maximized")
     o.add_argument("--disable-popup-blocking")
+    o.add_argument("--disable-blink-features=AutomationControlled")
+    o.add_argument("--disable-notifications")
+    o.add_argument("--disable-popup-blocking")
+    o.add_argument("--disable-blink-features=AutomationControlled")
+    o.add_argument("--disable-features=InterestFeedContentSuggestions")
+    o.add_argument("--disable-background-networking")
+    o.add_argument("--disable-background-timer-throttling")
+    o.add_argument("--disable-renderer-backgrounding")
+    o.add_argument("--headless=new")
+
 
     driver = Chrome(options=o)
 

@@ -10,6 +10,7 @@ class LoginPage(BasePage):
     PASSWORD_FIELD = (By.XPATH, '//input[@data-testid="login-password"]')
     LOGIN_SUBMIT_BUTTON = (By.XPATH, '//button[@data-testid="login-submit"]')
     ADD_NOTE_BUTTON = (By.XPATH, '//button[contains(. , "Add Note")]')
+    ERROR_MESSAGE = (By.XPATH,'//div[@data-testid="alert-message"]')
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -39,8 +40,13 @@ class LoginPage(BasePage):
     def enter_password(self, password):
         self.enter_text(self.PASSWORD_FIELD, password)
 
+    # def click_login_submit(self):
+    #     self.click(self.LOGIN_SUBMIT_BUTTON)
+
     def click_login_submit(self):
-        self.click(self.LOGIN_SUBMIT_BUTTON)
+        button = self.wait.until(EC.element_to_be_clickable(self.LOGIN_SUBMIT_BUTTON))
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", button)
+        self.driver.execute_script("arguments[0].click();", button)
 
     def click_add_note(self):
         self.click(self.ADD_NOTE_BUTTON)
@@ -59,3 +65,6 @@ class LoginPage(BasePage):
     # Validation
     def is_add_note_visible(self):
         return self.wait.until( lambda driver: driver.find_element(*self.ADD_NOTE_BUTTON) ).is_displayed()
+
+    def get_error_message(self):
+        return self.wait.until(EC.visibility_of_element_located(self.ERROR_MESSAGE)).text

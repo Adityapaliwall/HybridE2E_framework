@@ -11,9 +11,10 @@ class NotesPage(BasePage):
 
     create_button = (By.XPATH, '//button[.="Create"]')
     view_button = (By.XPATH, '//a[.="View"]')
-    edit_button = (By.XPATH, '//a[.="Edit"]')
+    edit_button = (By.XPATH, '(//button[.="Edit"])[1]')
     delete_button = (By.XPATH, '(//button[.="Delete"])[1]')
     cancel_note_button = (By.XPATH, '//button[contains(. , "Cancel")]')
+    save_edit = (By.XPATH, '//button[. = "Save"]')
 
     confirm_delete_button = (By.XPATH, '//button[@data-testid="note-delete-confirm"]')
 
@@ -34,7 +35,7 @@ class NotesPage(BasePage):
         self.click(self.check_box)
 
     def small_scroll_page(self):
-        self.scroll_by_amount(100)
+        self.scroll_by_amount(270)
 
     def enter_title(self, title):
         self.enter_text(self.title_box, title)
@@ -62,14 +63,25 @@ class NotesPage(BasePage):
     def click_view(self):
         self.click(self.view_button)
 
+    # def click_edit(self):
+    #     self.click(self.edit_button)
+
     def click_edit(self):
-        self.click(self.edit_button)
+        button = self.wait.until(EC.presence_of_element_located(self.edit_button))
+        self.driver.execute_script( "arguments[0].scrollIntoView({block:'center'});", button)
+        self.driver.execute_script("arguments[0].click();",button)
+
+    # def click_delete(self):
+    #     self.click(self.delete_button)
 
     def click_delete(self):
-        self.click(self.delete_button)
+        self.js_click(self.delete_button)
+
+    # def click_confirm_delete(self):
+    #     self.click(self.confirm_delete_button)
 
     def click_confirm_delete(self):
-        self.click(self.confirm_delete_button)
+        self.js_click(self.confirm_delete_button)
 
     def refresh_current_page(self):
         self.refresh_page()
@@ -80,16 +92,9 @@ class NotesPage(BasePage):
     def click_cancel_note(self):
         self.click(self.cancel_note_button)
 
-    # Business Methods
+    def click_edit_save_button(self):
+        self.click(self.save_edit)
 
-    def create_note(self, title, description):
-        self.enter_title(title)
-        self.enter_description(description)
-        self.click_create()
-
-    def delete_note(self):
-        self.click_delete()
-        self.click_confirm_delete()
 
     # Validations
 
@@ -115,4 +120,29 @@ class NotesPage(BasePage):
     def get_all_note_titles(self):
         elements = self.driver.find_elements(By.XPATH,'//div[contains(@class,"card-header")]')
         return [element.text for element in elements]
+
+    # Business Methods
+    def create_note(self, title, description):
+        self.click_on_add_note()
+        self.enter_title(title)
+        self.enter_description(description)
+        self.click_create()
+
+    def delete_note(self):
+        self.click_delete()
+        self.click_confirm_delete()
+
+    def clear_title(self):
+        self.driver.find_element(*self.title_box).clear()
+    def clear_description(self):
+        self.driver.find_element(*self.description_box).clear()
+
+    def edit_note(self, title, description):
+        self.click_edit()
+        self.clear_title()
+        self.clear_description()
+        self.enter_title(title)
+        self.enter_description(description)
+        self.click_edit_save_button()
+
 

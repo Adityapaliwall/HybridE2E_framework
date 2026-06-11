@@ -30,8 +30,7 @@ def test_ui_to_api(setup_and_teardown, headers):
     assert lp.is_add_note_visible()
 
 ##  creating notes trough ui
-    pp.click_on_add_note()
-    pp.click_check_box()
+
     pp.create_note(title, description)
     pp.refresh_current_page()
 
