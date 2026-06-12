@@ -1,0 +1,24 @@
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:21 
+===== API LOGIN =====
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:28 API Login Successful
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:44 
+===== NOTE CREATED THROUGH API =====
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:45 Note ID     : 6a2b915ac760c30296c76c2a
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:46 Title       : Delete Hybrid Note
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:47 Description : Created for API delete validation
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:51 
+===== DELETE NOTE THROUGH API =====
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:59 Status Code : 200
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:60 Deleted Note ID : 6a2b915ac760c30296c76c2a
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:61 Delete API Successful
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:65 
+===== VERIFY DELETION THROUGH API =====
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:69 Deleted Note Not Found In API
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:78 
+===== LOGIN THROUGH UI =====
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:84 UI Login Successful
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:89 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:94 Available Notes In UI:
+INFO     test_02_api_to_ui:test_02_api_to_ui.py:102 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
