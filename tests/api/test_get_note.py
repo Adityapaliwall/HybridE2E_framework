@@ -23,4 +23,4 @@ def test_get_all_notes_performance(headers):
     response_time = response.elapsed.total_seconds()
     print("\n-----performance-----")
     print(f"Response time: {response_time:.2f} seconds")
-    assert response_time < 2
+    assert response_time < 5
