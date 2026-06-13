@@ -1,3 +1,0 @@
-INFO     test_create_note_ui:test_create_note_ui.py:62 
-_______invalid note test__________
-INFO     test_create_note_ui:test_create_note_ui.py:63 Screenshot capture

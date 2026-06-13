@@ -1,3 +1,0 @@
-INFO     test_login_ui:test_login_ui.py:22 
-===== VALID LOGIN =====
-INFO     test_login_ui:test_login_ui.py:23 Login Successful

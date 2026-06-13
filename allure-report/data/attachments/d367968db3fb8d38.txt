@@ -1,0 +1,8 @@
+2026-06-13 19:16:40,459 - test_update_note_api - [INFO] - 
+-----note created successfully-----
+2026-06-13 19:16:40,459 - test_update_note_api - [INFO] - NOTE ID: 6a2d5f41c760c30296c8b373
+2026-06-13 19:16:40,459 - test_update_note_api - [INFO] - NOTE TITLE: Test Note 1
+2026-06-13 19:16:40,920 - test_update_note_api - [INFO] - 
+_______updated Note__________
+2026-06-13 19:16:40,920 - test_update_note_api - [INFO] - NOTE ID: 6a2d5f41c760c30296c8b373
+2026-06-13 19:16:40,921 - test_update_note_api - [INFO] - NOTE TITLE: Updated Test Note

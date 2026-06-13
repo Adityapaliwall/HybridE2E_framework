@@ -1,0 +1,3 @@
+2026-06-13 19:16:41,904 - test_delete_note_api - [INFO] - 
+===== INVALID NOTE ID =====
+2026-06-13 19:16:41,904 - test_delete_note_api - [INFO] - 400

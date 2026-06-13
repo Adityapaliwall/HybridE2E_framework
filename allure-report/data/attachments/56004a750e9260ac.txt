@@ -1,0 +1,2 @@
+2026-06-13 19:16:39,680 - test_create_note_api - [INFO] - 
+----------------Note created successfully-------------

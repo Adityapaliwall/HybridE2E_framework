@@ -1,0 +1,8 @@
+[32mINFO    [0m test_update_note_api:test_update_note_api.py:16 
+-----note created successfully-----
+[32mINFO    [0m test_update_note_api:test_update_note_api.py:17 NOTE ID: 6a2d5f41c760c30296c8b373
+[32mINFO    [0m test_update_note_api:test_update_note_api.py:18 NOTE TITLE: Test Note 1
+[32mINFO    [0m test_update_note_api:test_update_note_api.py:31 
+_______updated Note__________
+[32mINFO    [0m test_update_note_api:test_update_note_api.py:32 NOTE ID: 6a2d5f41c760c30296c8b373
+[32mINFO    [0m test_update_note_api:test_update_note_api.py:33 NOTE TITLE: Updated Test Note

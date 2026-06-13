@@ -1,0 +1,4 @@
+2026-06-13 19:16:40,578 - test_create_note_api - [INFO] - 
+-------Invalid note below are status code------
+2026-06-13 19:16:40,579 - test_create_note_api - [INFO] - 400
+2026-06-13 19:16:40,579 - test_create_note_api - [INFO] - {"success":false,"status":400,"message":"Title must be between 4 and 100 characters"}

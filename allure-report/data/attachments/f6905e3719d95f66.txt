@@ -1,8 +1,0 @@
-
------note created successfully-----
-NOTE ID: 6a2bf90ac760c30296c80d22
-NOTE TITLE: Test Note 1
-
-_______updated Note__________
-NOTE ID: 6a2bf90ac760c30296c80d22
-NOTE TITLE: Updated Test Note

@@ -1,3 +1,0 @@
-
------performance-----
-Response time: 0.61 seconds

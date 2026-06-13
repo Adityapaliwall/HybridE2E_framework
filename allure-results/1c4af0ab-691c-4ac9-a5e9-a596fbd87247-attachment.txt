@@ -1,0 +1,7 @@
+INFO     test_delete_note_api:test_delete_note_api.py:17 
+-------- NOTE CREATED ---------
+INFO     test_delete_note_api:test_delete_note_api.py:18 Note ID : 6a2d9029c760c30296c8ceb4
+INFO     test_delete_note_api:test_delete_note_api.py:23 
+===== NOTE DELETED =====
+INFO     test_delete_note_api:test_delete_note_api.py:24 Deleted Note ID : 6a2d9029c760c30296c8ceb4
+INFO     test_delete_note_api:test_delete_note_api.py:27 Deleted Note Not Found

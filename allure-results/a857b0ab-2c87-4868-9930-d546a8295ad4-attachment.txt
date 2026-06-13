@@ -1,3 +1,0 @@
-INFO     test_delete_note_ui:test_delete_note_ui.py:47 
-===== NOTE DELETED SUCCESSFULLY =====
-INFO     test_delete_note_ui:test_delete_note_ui.py:48 Deleted Note : delete note test case

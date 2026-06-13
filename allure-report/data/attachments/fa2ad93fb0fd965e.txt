@@ -1,0 +1,7 @@
+2026-06-13 19:16:39,700 - test_delete_note_api - [INFO] - 
+-------- NOTE CREATED ---------
+2026-06-13 19:16:39,700 - test_delete_note_api - [INFO] - Note ID : 6a2d5f40c760c30296c8b364
+2026-06-13 19:16:40,316 - test_delete_note_api - [INFO] - 
+===== NOTE DELETED =====
+2026-06-13 19:16:40,316 - test_delete_note_api - [INFO] - Deleted Note ID : 6a2d5f40c760c30296c8b364
+2026-06-13 19:16:40,765 - test_delete_note_api - [INFO] - Deleted Note Not Found
