@@ -9,8 +9,25 @@ class BasePage:
         self.wait = WebDriverWait(driver, 10)   ## waiting time for element
 
     ## element to be clickable
+    # def click(self, locator):
+    #     self.wait.until(EC.element_to_be_clickable(locator)).click()
+
+    def dismiss_ads(self):
+        self.driver.execute_script("""
+            document.querySelectorAll('iframe[id^="aswift_"]').forEach(el => el.remove());
+            document.querySelectorAll('div.grippy-host').forEach(el => el.remove());
+        """)
+
     def click(self, locator):
-        self.wait.until(EC.element_to_be_clickable(locator)).click()
+        element = self.wait.until(EC.element_to_be_clickable(locator))
+
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});",element)
+        self.dismiss_ads()
+
+        try:
+            element.click()
+        except Exception:
+            self.driver.execute_script("arguments[0].click();",element)
 
     def direct_click(self, locator):
         self.driver.find_element(*locator).click()
