@@ -1,0 +1,3 @@
+[32mINFO    [0m test_edit_note_ui:test_edit_note_ui.py:83 
+===== INVALID EDIT TEST =====
+[32mINFO    [0m test_edit_note_ui:test_edit_note_ui.py:84 Screenshot Captured

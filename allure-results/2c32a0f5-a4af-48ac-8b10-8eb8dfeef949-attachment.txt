@@ -1,0 +1,3 @@
+[32mINFO    [0m test_create_note_ui:test_create_note_ui.py:62 
+_______invalid note test__________
+[32mINFO    [0m test_create_note_ui:test_create_note_ui.py:63 Screenshot capture

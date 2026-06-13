@@ -1,0 +1,4 @@
+[32mINFO    [0m test_create_note_ui:test_create_note_ui.py:36 
+-----------valid note created successfully-----------
+[32mINFO    [0m test_create_note_ui:test_create_note_ui.py:37 Title: Test Case
+[32mINFO    [0m test_create_note_ui:test_create_note_ui.py:38 Description: how are you i am fine why are you

@@ -1,0 +1,4 @@
+[32mINFO    [0m test_edit_note_ui:test_edit_note_ui.py:46 
+===== NOTE UPDATED SUCCESSFULLY =====
+[32mINFO    [0m test_edit_note_ui:test_edit_note_ui.py:47 Title       : Updated Test Case
+[32mINFO    [0m test_edit_note_ui:test_edit_note_ui.py:48 Description : Updated description from framework

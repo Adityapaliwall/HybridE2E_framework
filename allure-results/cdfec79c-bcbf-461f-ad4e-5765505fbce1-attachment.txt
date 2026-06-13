@@ -1,0 +1,3 @@
+[32mINFO    [0m test_get_note:test_get_note.py:20 
+------Invalid Token-------
+[32mINFO    [0m test_get_note:test_get_note.py:21 401

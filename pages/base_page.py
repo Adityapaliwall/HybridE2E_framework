@@ -19,15 +19,16 @@ class BasePage:
         """)
 
     def click(self, locator):
-        element = self.wait.until(EC.element_to_be_clickable(locator))
-
-        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});",element)
+        self.dismiss_ads()
+        element = self.wait.until(EC.presence_of_element_located(locator))
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", element)
         self.dismiss_ads()
 
         try:
+            self.wait.until(EC.element_to_be_clickable(locator))
             element.click()
         except Exception:
-            self.driver.execute_script("arguments[0].click();",element)
+            self.driver.execute_script("arguments[0].click();", element)
 
     def direct_click(self, locator):
         self.driver.find_element(*locator).click()

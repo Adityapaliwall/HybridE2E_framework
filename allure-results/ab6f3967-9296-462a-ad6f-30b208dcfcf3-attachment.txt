@@ -1,0 +1,3 @@
+[32mINFO    [0m test_login_ui:test_login_ui.py:40 
+===== INVALID LOGIN =====
+[32mINFO    [0m test_login_ui:test_login_ui.py:41 Validation Message Displayed
