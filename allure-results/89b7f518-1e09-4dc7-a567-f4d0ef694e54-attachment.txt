@@ -1,7 +1,0 @@
-INFO     test_01_ui_to_api:test_01_ui_to_api.py:37 ===== NOTE CREATED THROUGH UI =====
-INFO     test_01_ui_to_api:test_01_ui_to_api.py:38 Title    : Test Case
-INFO     test_01_ui_to_api:test_01_ui_to_api.py:39 Description : how are you i am fine why are you
-INFO     test_01_ui_to_api:test_01_ui_to_api.py:49 API Status Code : 200
-INFO     test_01_ui_to_api:test_01_ui_to_api.py:51 API Response Time : 0.73 sec
-INFO     test_01_ui_to_api:test_01_ui_to_api.py:67 Total Notes Returned : 132
-INFO     test_01_ui_to_api:test_01_ui_to_api.py:68 UI and API Data Matched Successfully

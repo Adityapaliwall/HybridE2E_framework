@@ -1,0 +1,4 @@
+INFO     test_create_note_ui:test_create_note_ui.py:36 
+-----------valid note created successfully-----------
+INFO     test_create_note_ui:test_create_note_ui.py:37 Title: Test Case
+INFO     test_create_note_ui:test_create_note_ui.py:38 Description: how are you i am fine why are you

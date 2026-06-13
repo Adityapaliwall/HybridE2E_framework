@@ -2398,3 +2398,176 @@ _______invalid note test__________
 2026-06-13 18:02:54,659 - test_login_ui - [INFO] - 
 ===== INVALID LOGIN =====
 2026-06-13 18:02:54,660 - test_login_ui - [INFO] - Validation Message Displayed
+2026-06-13 18:16:26,936 - test_create_note_api - [INFO] - 
+----------------Note created successfully-------------
+2026-06-13 18:16:28,640 - test_create_note_api - [INFO] - 
+-------Invalid note below are status code------
+2026-06-13 18:16:28,641 - test_create_note_api - [INFO] - 400
+2026-06-13 18:16:28,641 - test_create_note_api - [INFO] - {"success":false,"status":400,"message":"Title must be between 4 and 100 characters"}
+2026-06-13 18:16:30,027 - test_delete_note_api - [INFO] - 
+-------- NOTE CREATED ---------
+2026-06-13 18:16:30,027 - test_delete_note_api - [INFO] - Note ID : 6a2d5126c760c30296c8ac23
+2026-06-13 18:16:30,685 - test_delete_note_api - [INFO] - 
+===== NOTE DELETED =====
+2026-06-13 18:16:30,686 - test_delete_note_api - [INFO] - Deleted Note ID : 6a2d5126c760c30296c8ac23
+2026-06-13 18:16:31,084 - test_delete_note_api - [INFO] - Deleted Note Not Found
+2026-06-13 18:16:32,042 - test_delete_note_api - [INFO] - 
+===== INVALID NOTE ID =====
+2026-06-13 18:16:32,043 - test_delete_note_api - [INFO] - 400
+2026-06-13 18:16:33,056 - test_get_note - [INFO] - 
+_______Get all notes in the application________
+2026-06-13 18:16:33,058 - test_get_note - [INFO] - Total notes: 1
+2026-06-13 18:16:33,676 - test_get_note - [INFO] - 
+------Invalid Token-------
+2026-06-13 18:16:33,677 - test_get_note - [INFO] - 401
+2026-06-13 18:16:35,284 - test_get_note - [INFO] - 
+-----performance-----
+2026-06-13 18:16:35,285 - test_get_note - [INFO] - Response time: 0.52 seconds
+2026-06-13 18:16:36,507 - test_update_note_api - [INFO] - 
+-----note created successfully-----
+2026-06-13 18:16:36,508 - test_update_note_api - [INFO] - NOTE ID: 6a2d512dc760c30296c8ac3a
+2026-06-13 18:16:36,508 - test_update_note_api - [INFO] - NOTE TITLE: Test Note 1
+2026-06-13 18:16:36,915 - test_update_note_api - [INFO] - 
+_______updated Note__________
+2026-06-13 18:16:36,916 - test_update_note_api - [INFO] - NOTE ID: 6a2d512dc760c30296c8ac3a
+2026-06-13 18:16:36,916 - test_update_note_api - [INFO] - NOTE TITLE: Updated Test Note
+2026-06-13 18:16:37,861 - test_update_note_api - [INFO] - 
+--------invalid note id------------
+2026-06-13 18:16:37,862 - test_update_note_api - [INFO] - 400
+2026-06-13 18:16:55,189 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-13 18:16:55,190 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-13 18:16:55,190 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-13 18:16:55,874 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-13 18:16:55,874 - test_01_ui_to_api - [INFO] - API Response Time : 0.58 sec
+2026-06-13 18:16:55,875 - test_01_ui_to_api - [INFO] - Total Notes Returned : 3
+2026-06-13 18:16:55,875 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-13 18:17:10,711 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-13 18:17:11,175 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-13 18:17:11,773 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-13 18:17:11,773 - test_02_api_to_ui - [INFO] - Note ID     : 6a2d5150c760c30296c8ac58
+2026-06-13 18:17:11,774 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-13 18:17:11,774 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-13 18:17:11,774 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-13 18:17:12,175 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-13 18:17:12,176 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2d5150c760c30296c8ac58
+2026-06-13 18:17:12,177 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-13 18:17:12,177 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-13 18:17:12,569 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-13 18:17:12,574 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-13 18:17:15,837 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-13 18:17:18,513 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-13 18:17:19,278 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-13 18:17:19,290 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-13 18:17:45,281 - test_create_note_ui - [INFO] - 
+-----------valid note created successfully-----------
+2026-06-13 18:17:45,281 - test_create_note_ui - [INFO] - Title: Test Case
+2026-06-13 18:17:45,282 - test_create_note_ui - [INFO] - Description: how are you i am fine why are you
+2026-06-13 18:18:05,232 - test_create_note_ui - [INFO] - 
+_______invalid note test__________
+2026-06-13 18:18:05,233 - test_create_note_ui - [INFO] - Screenshot capture
+2026-06-13 18:18:40,401 - test_delete_note_ui - [INFO] - 
+===== NOTE DELETED SUCCESSFULLY =====
+2026-06-13 18:18:40,401 - test_delete_note_ui - [INFO] - Deleted Note : delete note test case
+2026-06-13 18:19:30,498 - test_edit_note_ui - [INFO] - 
+===== NOTE UPDATED SUCCESSFULLY =====
+2026-06-13 18:19:30,499 - test_edit_note_ui - [INFO] - Title       : Updated Test Case
+2026-06-13 18:19:30,499 - test_edit_note_ui - [INFO] - Description : Updated description from framework
+2026-06-13 18:20:01,707 - test_edit_note_ui - [INFO] - 
+===== INVALID EDIT TEST =====
+2026-06-13 18:20:01,709 - test_edit_note_ui - [INFO] - Screenshot Captured
+2026-06-13 18:20:20,033 - test_login_ui - [INFO] - 
+===== VALID LOGIN =====
+2026-06-13 18:20:20,033 - test_login_ui - [INFO] - Login Successful
+2026-06-13 18:20:40,285 - test_login_ui - [INFO] - 
+===== INVALID LOGIN =====
+2026-06-13 18:20:40,286 - test_login_ui - [INFO] - Validation Message Displayed
+2026-06-13 18:22:58,646 - test_create_note_api - [INFO] - 
+----------------Note created successfully-------------
+2026-06-13 18:23:00,004 - test_create_note_api - [INFO] - 
+-------Invalid note below are status code------
+2026-06-13 18:23:00,004 - test_create_note_api - [INFO] - 400
+2026-06-13 18:23:00,004 - test_create_note_api - [INFO] - {"success":false,"status":400,"message":"Title must be between 4 and 100 characters"}
+2026-06-13 18:23:01,186 - test_delete_note_api - [INFO] - 
+-------- NOTE CREATED ---------
+2026-06-13 18:23:01,186 - test_delete_note_api - [INFO] - Note ID : 6a2d52aec760c30296c8ad5d
+2026-06-13 18:23:01,676 - test_delete_note_api - [INFO] - 
+===== NOTE DELETED =====
+2026-06-13 18:23:01,677 - test_delete_note_api - [INFO] - Deleted Note ID : 6a2d52aec760c30296c8ad5d
+2026-06-13 18:23:02,136 - test_delete_note_api - [INFO] - Deleted Note Not Found
+2026-06-13 18:23:03,363 - test_delete_note_api - [INFO] - 
+===== INVALID NOTE ID =====
+2026-06-13 18:23:03,364 - test_delete_note_api - [INFO] - 400
+2026-06-13 18:23:04,566 - test_get_note - [INFO] - 
+_______Get all notes in the application________
+2026-06-13 18:23:04,566 - test_get_note - [INFO] - Total notes: 1
+2026-06-13 18:23:05,095 - test_get_note - [INFO] - 
+------Invalid Token-------
+2026-06-13 18:23:05,095 - test_get_note - [INFO] - 401
+2026-06-13 18:23:06,471 - test_get_note - [INFO] - 
+-----performance-----
+2026-06-13 18:23:06,471 - test_get_note - [INFO] - Response time: 0.86 seconds
+2026-06-13 18:23:07,721 - test_update_note_api - [INFO] - 
+-----note created successfully-----
+2026-06-13 18:23:07,721 - test_update_note_api - [INFO] - NOTE ID: 6a2d52b4c760c30296c8ad8d
+2026-06-13 18:23:07,722 - test_update_note_api - [INFO] - NOTE TITLE: Test Note 1
+2026-06-13 18:23:08,154 - test_update_note_api - [INFO] - 
+_______updated Note__________
+2026-06-13 18:23:08,154 - test_update_note_api - [INFO] - NOTE ID: 6a2d52b4c760c30296c8ad8d
+2026-06-13 18:23:08,154 - test_update_note_api - [INFO] - NOTE TITLE: Updated Test Note
+2026-06-13 18:23:09,180 - test_update_note_api - [INFO] - 
+--------invalid note id------------
+2026-06-13 18:23:09,180 - test_update_note_api - [INFO] - 400
+2026-06-13 18:24:13,701 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-13 18:24:13,701 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-13 18:24:13,701 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-13 18:24:14,373 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-13 18:24:14,374 - test_01_ui_to_api - [INFO] - API Response Time : 0.59 sec
+2026-06-13 18:24:14,374 - test_01_ui_to_api - [INFO] - Total Notes Returned : 3
+2026-06-13 18:24:14,374 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully
+2026-06-13 18:24:31,646 - test_02_api_to_ui - [INFO] - 
+===== API LOGIN =====
+2026-06-13 18:24:33,320 - test_02_api_to_ui - [INFO] - API Login Successful
+2026-06-13 18:24:33,931 - test_02_api_to_ui - [INFO] - 
+===== NOTE CREATED THROUGH API =====
+2026-06-13 18:24:33,932 - test_02_api_to_ui - [INFO] - Note ID     : 6a2d530ac760c30296c8adc8
+2026-06-13 18:24:33,932 - test_02_api_to_ui - [INFO] - Title       : Delete Hybrid Note
+2026-06-13 18:24:33,932 - test_02_api_to_ui - [INFO] - Description : Created for API delete validation
+2026-06-13 18:24:33,932 - test_02_api_to_ui - [INFO] - 
+===== DELETE NOTE THROUGH API =====
+2026-06-13 18:24:34,533 - test_02_api_to_ui - [INFO] - Status Code : 200
+2026-06-13 18:24:34,533 - test_02_api_to_ui - [INFO] - Deleted Note ID : 6a2d530ac760c30296c8adc8
+2026-06-13 18:24:34,533 - test_02_api_to_ui - [INFO] - Delete API Successful
+2026-06-13 18:24:34,534 - test_02_api_to_ui - [INFO] - 
+===== VERIFY DELETION THROUGH API =====
+2026-06-13 18:24:35,335 - test_02_api_to_ui - [INFO] - Deleted Note Not Found In API
+2026-06-13 18:24:35,337 - test_02_api_to_ui - [INFO] - 
+===== LOGIN THROUGH UI =====
+2026-06-13 18:24:38,946 - test_02_api_to_ui - [INFO] - UI Login Successful
+2026-06-13 18:25:02,159 - test_02_api_to_ui - [INFO] - 
+===== VERIFY NOTE NOT PRESENT IN UI =====
+2026-06-13 18:25:02,709 - test_02_api_to_ui - [INFO] - Available Notes In UI:
+2026-06-13 18:25:02,709 - test_02_api_to_ui - [INFO] - 
+Deleted Note 'Delete Hybrid Note' Not Found In UI
+2026-06-13 18:25:30,358 - test_create_note_ui - [INFO] - 
+-----------valid note created successfully-----------
+2026-06-13 18:25:30,358 - test_create_note_ui - [INFO] - Title: Test Case
+2026-06-13 18:25:30,358 - test_create_note_ui - [INFO] - Description: how are you i am fine why are you
+2026-06-13 18:25:49,274 - test_create_note_ui - [INFO] - 
+_______invalid note test__________
+2026-06-13 18:25:49,274 - test_create_note_ui - [INFO] - Screenshot capture
+2026-06-13 18:26:46,865 - test_delete_note_ui - [INFO] - 
+===== NOTE DELETED SUCCESSFULLY =====
+2026-06-13 18:26:46,865 - test_delete_note_ui - [INFO] - Deleted Note : delete note test case
+2026-06-13 18:28:44,007 - test_login_ui - [INFO] - 
+===== VALID LOGIN =====
+2026-06-13 18:28:44,007 - test_login_ui - [INFO] - Login Successful
+2026-06-13 18:29:17,982 - test_login_ui - [INFO] - 
+===== INVALID LOGIN =====
+2026-06-13 18:29:17,983 - test_login_ui - [INFO] - Validation Message Displayed

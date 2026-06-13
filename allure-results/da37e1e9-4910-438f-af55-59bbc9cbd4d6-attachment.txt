@@ -1,4 +1,0 @@
-INFO     test_edit_note_ui:test_edit_note_ui.py:46 
-===== NOTE UPDATED SUCCESSFULLY =====
-INFO     test_edit_note_ui:test_edit_note_ui.py:47 Title       : Updated Test Case
-INFO     test_edit_note_ui:test_edit_note_ui.py:48 Description : Updated description from framework

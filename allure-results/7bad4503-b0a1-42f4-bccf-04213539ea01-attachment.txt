@@ -1,8 +1,0 @@
-INFO     test_update_note_api:test_update_note_api.py:16 
------note created successfully-----
-INFO     test_update_note_api:test_update_note_api.py:17 NOTE ID: 6a2d4d1ac760c30296c8a97c
-INFO     test_update_note_api:test_update_note_api.py:18 NOTE TITLE: Test Note 1
-INFO     test_update_note_api:test_update_note_api.py:31 
-_______updated Note__________
-INFO     test_update_note_api:test_update_note_api.py:32 NOTE ID: 6a2d4d1ac760c30296c8a97c
-INFO     test_update_note_api:test_update_note_api.py:33 NOTE TITLE: Updated Test Note

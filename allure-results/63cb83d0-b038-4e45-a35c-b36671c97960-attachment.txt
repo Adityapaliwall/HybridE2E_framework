@@ -1,3 +1,0 @@
-INFO     test_edit_note_ui:test_edit_note_ui.py:83 
-===== INVALID EDIT TEST =====
-INFO     test_edit_note_ui:test_edit_note_ui.py:84 Screenshot Captured

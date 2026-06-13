@@ -1,0 +1,3 @@
+INFO     test_get_note:test_get_note.py:13 
+_______Get all notes in the application________
+INFO     test_get_note:test_get_note.py:14 Total notes: 1
