@@ -1,0 +1,3 @@
+
+===== NOTE DELETED SUCCESSFULLY =====
+Deleted Note : delete note test case

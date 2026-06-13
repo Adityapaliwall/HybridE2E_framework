@@ -1,0 +1,3 @@
+INFO     test_get_note:test_get_note.py:20 
+------Invalid Token-------
+INFO     test_get_note:test_get_note.py:21 401

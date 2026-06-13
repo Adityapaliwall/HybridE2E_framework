@@ -1,0 +1,4 @@
+INFO     test_create_note_api:test_create_note_api.py:39 
+-------Invalid note below are status code------
+INFO     test_create_note_api:test_create_note_api.py:40 400
+INFO     test_create_note_api:test_create_note_api.py:41 {"success":false,"status":400,"message":"Title must be between 4 and 100 characters"}

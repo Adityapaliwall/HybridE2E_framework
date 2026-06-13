@@ -1,0 +1,3 @@
+INFO     test_get_note:test_get_note.py:28 
+-----performance-----
+INFO     test_get_note:test_get_note.py:29 Response time: 0.44 seconds

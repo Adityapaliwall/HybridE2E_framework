@@ -1,6 +1,10 @@
 from api.notes.notes_api import NotesAPI
 from utils.read_data import read_json
 import allure
+from utils import logger
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 
 @allure.feature("Notes API")
@@ -20,7 +24,7 @@ def test_create_note(headers):
     assert data["description"] == payload["description"]
     assert data["category"] == payload["category"]
 
-    print("\n----------------Note created successfully-------------")
+    logger.info("\n----------------Note created successfully-------------")
 
 
 @allure.feature("Notes API")
@@ -32,8 +36,8 @@ def test_create_note_invalid_data(headers):
 
     response = NotesAPI().create_note(headers, payload)
 
-    print("\n-------Invalid note below are status code------")
-    print(response.status_code)
-    print(response.text)
+    logger.info("\n-------Invalid note below are status code------")
+    logger.info(response.status_code)
+    logger.info(response.text)
 
     assert response.status_code in [400, 422]

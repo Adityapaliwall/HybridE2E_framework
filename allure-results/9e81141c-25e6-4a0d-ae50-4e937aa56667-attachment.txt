@@ -1,0 +1,3 @@
+INFO     test_delete_note_api:test_delete_note_api.py:32 
+===== INVALID NOTE ID =====
+INFO     test_delete_note_api:test_delete_note_api.py:33 400

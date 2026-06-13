@@ -1,0 +1,7 @@
+2026-06-12 17:48:59,859 - test_01_ui_to_api - [INFO] - ===== NOTE CREATED THROUGH UI =====
+2026-06-12 17:48:59,860 - test_01_ui_to_api - [INFO] - Title    : Test Case
+2026-06-12 17:48:59,860 - test_01_ui_to_api - [INFO] - Description : how are you i am fine why are you
+2026-06-12 17:49:01,004 - test_01_ui_to_api - [INFO] - API Status Code : 200
+2026-06-12 17:49:01,004 - test_01_ui_to_api - [INFO] - API Response Time : 0.60 sec
+2026-06-12 17:49:01,005 - test_01_ui_to_api - [INFO] - Total Notes Returned : 110
+2026-06-12 17:49:01,006 - test_01_ui_to_api - [INFO] - UI and API Data Matched Successfully

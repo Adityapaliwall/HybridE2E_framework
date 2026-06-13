@@ -1,0 +1,2 @@
+INFO     test_create_note_api:test_create_note_api.py:27 
+----------------Note created successfully-------------

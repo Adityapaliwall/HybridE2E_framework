@@ -3,6 +3,10 @@ from pages.login_page import LoginPage
 from pages.notes_page import NotesPage
 from time import sleep
 from utils.read_data import read_json
+from utils import logger
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 def test_valid_note(setup_and_teardown):
     driver = setup_and_teardown
@@ -29,9 +33,9 @@ def test_valid_note(setup_and_teardown):
     assert note_data["title"] == title
     assert note_data["description"] == description
 
-    print("\n-----------valid note created successfully-----------")
-    print(f"Title: {title}")
-    print(f"Description: {description}")
+    logger.info("\n-----------valid note created successfully-----------")
+    logger.info(f"Title: {title}")
+    logger.info(f"Description: {description}")
 
 
 def test_invalid_note(setup_and_teardown):
@@ -55,8 +59,8 @@ def test_invalid_note(setup_and_teardown):
     pp.create_note(title, description)
     pp.take_screenshot("invalid_note_create.png")
 
-    print("\n_______invalid note test__________")
-    print("Screenshot capture")
+    logger.info("\n_______invalid note test__________")
+    logger.info("Screenshot capture")
 
     pp.click_cancel_note()
 

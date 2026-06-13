@@ -34,11 +34,8 @@ def test_ui_to_api(setup_and_teardown, headers):
     pp.create_note(title, description)
     pp.refresh_current_page()
 
-    print("\n===== NOTE CREATED THROUGH UI =====")
     logger.info("===== NOTE CREATED THROUGH UI =====")
-    print(f"Title       : {title}")
     logger.info(f"Title    : {title}")
-    print(f"Description : {description}")
     logger.info(f"Description : {description}")
 
     ## validating ui that notes are made or not
@@ -49,10 +46,8 @@ def test_ui_to_api(setup_and_teardown, headers):
     response = NotesAPI().get_all_notes(headers)
     assert response.status_code == 200
 
-    print(f"\nAPI Status Code : {response.status_code}")
     logger.info(f"API Status Code : {response.status_code}")
     response_time = response.elapsed.total_seconds()
-    print(f"API Response Time : {response_time:.2f} sec")
     logger.info(f"API Response Time : {response_time:.2f} sec")
 
 
@@ -69,7 +64,5 @@ def test_ui_to_api(setup_and_teardown, headers):
     assert found, \
         "Note created in UI not found in API"
 
-    print(f"Total Notes Returned : {len(notes)}")
     logger.info(f"Total Notes Returned : {len(notes)}")
-    print("\nUI and API Data Matched Successfully")
     logger.info("UI and API Data Matched Successfully")

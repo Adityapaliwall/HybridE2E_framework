@@ -2,6 +2,10 @@ from config.env import ConfigReader
 from pages.login_page import LoginPage
 from pages.notes_page import NotesPage
 from time import sleep
+from utils import logger
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 
 def test_edit_note(setup_and_teardown):
@@ -39,9 +43,9 @@ def test_edit_note(setup_and_teardown):
     assert note_data["title"] == new_title
     assert note_data["description"] == new_description
 
-    print("\n===== NOTE UPDATED SUCCESSFULLY =====")
-    print(f"Title       : {new_title}")
-    print(f"Description : {new_description}")
+    logger.info("\n===== NOTE UPDATED SUCCESSFULLY =====")
+    logger.info(f"Title       : {new_title}")
+    logger.info(f"Description : {new_description}")
 
 
 def test_edit_note_invalid_title(setup_and_teardown):
@@ -76,7 +80,7 @@ def test_edit_note_invalid_title(setup_and_teardown):
     sleep(3)
 
     pp.take_screenshot("invalid_edit_note")
-    print("\n===== INVALID EDIT TEST =====")
-    print("Screenshot Captured")
+    logger.info("\n===== INVALID EDIT TEST =====")
+    logger.info("Screenshot Captured")
 
     pp.click_cancel_note()

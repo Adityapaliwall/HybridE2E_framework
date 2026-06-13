@@ -1,6 +1,10 @@
 from config.env import ConfigReader
 from pages.login_page import LoginPage
 from time import sleep
+from utils import logger
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 def test_valid_login(setup_and_teardown):
 
@@ -15,8 +19,8 @@ def test_valid_login(setup_and_teardown):
     lp.login(email,password)
     assert lp.is_add_note_visible(), "Login Failed"
 
-    print("\n===== VALID LOGIN =====")
-    print("Login Successful")
+    logger.info("\n===== VALID LOGIN =====")
+    logger.info("Login Successful")
 
 def test_invalid_login(setup_and_teardown):
     driver = setup_and_teardown
@@ -33,5 +37,5 @@ def test_invalid_login(setup_and_teardown):
 
     assert lp.get_error_message() == "Incorrect email address or password"
 
-    print("\n===== INVALID LOGIN =====")
-    print("Validation Message Displayed")
+    logger.info("\n===== INVALID LOGIN =====")
+    logger.info("Validation Message Displayed")
