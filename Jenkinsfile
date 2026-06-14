@@ -24,7 +24,7 @@ pipeline {
                 mkdir allure-results
                 mkdir reports
 
-                "%PYTHON_HOME%\\python.exe" -m pytest -n auto --html=reports\\report.html --self-contained-html --alluredir=allure-results
+                "%PYTHON_HOME%\\python.exe" -m pytest -vs --html=reports\\report.html --self-contained-html --alluredir=allure-results
                 '''
             }
         }
