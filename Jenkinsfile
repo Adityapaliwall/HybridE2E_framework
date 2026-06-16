@@ -24,6 +24,8 @@ pipeline {
                 mkdir allure-results
                 mkdir reports
 
+                copy environment.properties allure-results\\environment.properties
+
                 "%PYTHON_HOME%\\python.exe" -m pytest -vs --html=reports\\report.html --self-contained-html --alluredir=allure-results
                 '''
             }
